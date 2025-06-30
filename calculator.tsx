@@ -148,7 +148,7 @@ export default function PriceCalculator() {
             </div>
 
             <div>
-              <Label className="text-sm text-gray-600">黒崎さんの取り分（5% + {bFixedAmountInMan}万円）</Label>
+              <Label className="text-sm text-gray-600">黒崎さんの取り分（税抜きの5% + {bFixedAmountInMan}万円）</Label>
               <p className="text-xl font-bold text-blue-600">{formatCurrency(bShare)}</p>
             </div>
 
